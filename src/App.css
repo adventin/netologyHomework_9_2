@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+  height: 1000px;
+}
+
+.post {}
+
+.posts-header {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 1rem;
+  padding: .5rem 1rem;
+  border: 1px solid #e5e5e5;
+  border-radius: .125rem;
+}
+
+.posts-list {}
+
+.post-edit {}
+
+.post-edit-area {
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.card:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.card-avatar {
+  width: 4rem;
+  height: 4rem;
+  margin: 0 1rem 0 0;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.card-author {
+  margin-bottom: .5rem;
+}
+
+.card-content {
+  flex-grow: 1;
+  min-height: 5rem;
+  padding: .5rem 1rem;
+  border: 1px solid #e5e5e5;
+  border-radius: .125rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 auto;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.form-column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-label {
+  margin-bottom: .5rem;
+}
+
+.form-field {}
+
+.form-button {
+  margin-top: 1rem;
+  margin-left: auto;
+}
+
+
+.page-post-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-bottom: 1rem;
+}
+
+.page-post-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.icon-close {
+  cursor: pointer;
+}
+
+.button-base {
+  padding: .5rem 1rem;
+  text-decoration: none;
+  border-radius: .125rem;
+  outline: none;
+  border: none;
+}
+
+.button-blue {
+  background-color: #486bab;
+  color: #fff;
+}
+
+.button-blue:hover {
+  background-color: #274781;
+}
+
+.button-red {
+  background-color: #ab4348;
+  color: #fff;
+}
+
+.button-red:hover {
+  background-color: #9d272c;
+}
